@@ -19,7 +19,9 @@ const Product = ({ products }) => {
             textAlign: "center",
             padding: "15px",
             backgroundColor: "#FFFFFF",
-            boxSizing: "border-box"
+            boxSizing: "border-box",
+            display: "flex",
+            flexDirection: "column"
           }}>
 
             <img
@@ -72,7 +74,9 @@ const Product = ({ products }) => {
               padding: "10px",
               width: "100%",
               fontWeight: "bold",
-              cursor: "pointer"
+              cursor: "pointer",
+              marginTop: "auto",
+              whiteSpace: "nowrap"
             }}>
               Add to Cart
             </button>
